@@ -104,7 +104,7 @@ async def _(e):
             a = await e.client.get_entity(message)
             user_id = int(a.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ 𝐫𝐢𝐬𝐡𝐚𝐧𝐭 ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
@@ -121,7 +121,7 @@ async def _(e):
             b = await e.client.get_entity(a.sender_id)
             user_id = int(b.id)
             if int(user_id) in ALTRON:
-                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+                await e.reply("» ᴀʀᴇ..😒 ʏᴇ ᴛᴏ ᴛᴇʀᴀ 𝐫𝐢𝐬𝐡𝐚𝐧𝐭 ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) == OWNER_ID:
                 await e.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
             elif int(user_id) in SUDO_USERS:
