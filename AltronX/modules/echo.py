@@ -26,7 +26,7 @@ async def echo(event):
         reply_msg = await event.get_reply_message()
         user_id = reply_msg.sender_id
         if int(user_id) in ALTRON:
-            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ sʜɪᴠᴀɴsʜ ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
+            await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ 𝐑𝐈𝐒𝐇𝐀𝐍𝐓 ᴘᴀᴘᴀ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) == OWNER_ID:
             await event.reply("» ᴀʀᴇ.. ʏᴇ ᴛᴏ ᴛᴇʀᴀ ʙᴀᴀᴘ ʜᴀɪ", parse_mode=None, link_preview=None)
         elif int(user_id) in SUDO_USERS:
